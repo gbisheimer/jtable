@@ -8,6 +8,28 @@
 
         <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
+        <script type="text/javascript" src="js/jquery/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="js/jquery/jquery-ui-1.9.2.custom.min.js"></script>
+
+        <script type="text/javascript" src="js/jtable/jquery.jtable.js"></script>
+        <script type="text/javascript" src="js/jtable/extensions/jquery.jtable.export.js"></script>
+        <script type="text/javascript" src="js/jtable/extensions/jquery.jtable.filters.js"></script>
+        <script type="text/javascript" src="js/jtable/extensions/jquery.jtable.footer.js"></script>
+        <script type="text/javascript" src="js/jtable/extensions/jquery.jtable.form.template.js"></script>
+        <script type="text/javascript" src="js/jtable/extensions/jquery.jtable.local_db.js"></script>
+        <script type="text/javascript" src="js/jtable/extensions/jquery.jtable.masterchild.ex.js"></script>
+        <script type="text/javascript" src="js/jtable/extensions/jquery.jtable.reload.js"></script>
+        <script type="text/javascript" src="js/jtable/extensions/external/jszip.js"></script>
+        <script type="text/javascript" src="js/jtable/extensions/external/jszip-deflate.js"></script>
+        <script type="text/javascript" src="js/jtable/extensions/external/jszip-inflate.js"></script>
+        <script type="text/javascript" src="js/jtable/extensions/external/jszip-load.js"></script>
+        <script type="text/javascript" src="js/jtable/extensions/external/json2xml.js"></script>
+        <script type="text/javascript" src="js/jtable/extensions/external/xlsx.js"></script>
+
+        <script type="text/javascript" src="js/validationEngine/jquery.validationEngine.js"></script>
+        <script type="text/javascript" src="js/validationEngine/languages/jquery.validationEngine-en.js"></script>
+        
+        <script type="text/javascript" src="js/main.js"></script>
         <title>Jtable</title>
     </head>
 
@@ -46,21 +68,28 @@
                     <li><a class="anchor" href="#table-reload-extension">Table reload</a></li>
                 </ul>
 
-                <h3><a name="export-extension" class="anchor"><span class="octicon octicon-link"></span></a>Export extension</h3>
-                <pre><code></code></pre>
+                <h3><a name="export-extension" class="anchor"><span class="octicon octicon-link"></span></a>Export</h3>
+                <p>Currently works only for Excel (.xlsx) files.</p>
+                <div id="t-export"></div>
 
-                <h3><a name="filtering-extension" class="anchor"><span class="octicon octicon-link"></span></a>Filtering extension</h3>
-                <pre><code></code></pre>
-                <h3><a name="footer-extension" class="anchor"><span class="octicon octicon-link"></span></a>Footer extension</h3>
-                <pre><code></code></pre>
-                <h3><a name="form-templates-extension" class="anchor"><span class="octicon octicon-link"></span></a>Form Templates extension</h3>
-                <pre><code></code></pre>
-                <h3><a name="local-db-extension" class="anchor"><span class="octicon octicon-link"></span></a>Local DB extension</h3>
-                <pre><code></code></pre>
-                <h3><a name="master-child-addon-extension" class="anchor"><span class="octicon octicon-link"></span></a>Master-Child addon extension</h3>
-                <pre><code></code></pre>
-                <h3><a name="table-reload-extension" class="anchor"><span class="octicon octicon-link"></span></a>Table reload extension</h3>
-                <pre><code></code></pre>
+                <h3><a name="filtering-extension" class="anchor"><span class="octicon octicon-link"></span></a>Filtering</h3>
+                <div id="t-filtering"></div>
+                
+                <h3><a name="footer-extension" class="anchor"><span class="octicon octicon-link"></span></a>Footer</h3>
+                <div id="t-footer"></div>
+                
+                <h3><a name="form-templates-extension" class="anchor"><span class="octicon octicon-link"></span></a>Form Templates</h3>
+                <div id="t-templates"></div>
+               
+                <h3><a name="local-db-extension" class="anchor"><span class="octicon octicon-link"></span></a>Local DB</h3>
+                <div id="t-local-db"></div>
+
+                <h3><a name="master-child-addon-extension" class="anchor"><span class="octicon octicon-link"></span></a>Master-Child addon</h3>
+                <p>Allows to easily create columns to show child tables displaying related data of the current row, and treats them as a one-to-many relational field. This allows to create automatically the same child table inside the edit or create input forms in order to input all the required data in one place.</p>
+                <div id="t-master-child"></div>
+
+                <h3><a name="table-reload-extension" class="anchor"><span class="octicon octicon-link"></span></a>Table reload</h3>
+                <div id="t-reload"></div>
 
             </section>
         </div>

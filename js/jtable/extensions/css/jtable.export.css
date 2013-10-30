@@ -1,0 +1,41 @@
+/* EXPORT EXTENSION styles */
+/**************************************************************************/
+div.jtable-main-container div.jtable-export-menu-container {
+  position: absolute;
+  border-top: 1px solid #C8C8C8;
+  background: #fff;
+  color: #000;
+  z-index: 101;
+}
+div.jtable-main-container div.jtable-export-menu-container ul.jtable-export-menu {
+  margin: 0px;
+  padding: 0px;
+}
+div.jtable-main-container div.jtable-export-menu-container ul.jtable-export-menu li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+div.jtable-main-container div.jtable-export-menu-container span.jtable-menu-item {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  font-size: 0.9em;
+  padding: 5px 10px 5px 10px;
+  vertical-align: bottom;
+  text-align: center;
+  border-bottom: 1px solid #C8C8C8;
+  border-left: 1px solid #C8C8C8;
+  border-right: 1px solid #C8C8C8;
+}
+div.jtable-main-container div.jtable-export-menu-container span.jtable-menu-item-hover {
+  background-color: #417bb5;
+  color: #FFF;
+}
+div.jtable-main-container div.jtable-export-menu-container span.jtable-menu-item span.jtable-menu-item-icon {
+  display: block;
+}
+div.jtable-main-container div.jtable-export-menu-container span.jtable-menu-item span.jtable-menu-item-text {
+  display: block;
+  text-align: center;
+}

@@ -4,6 +4,12 @@ by Jason Costello, @jsncostello
 *******************************************************************************/
 
 @import url(pygment_trac.css);
+@import "../js/jquery/css/smoothness/jquery-ui.css";
+@import "../js/validationEngine/css/validationEngine.jquery.css";
+@import "../js/jtable/themes/lightcolor/blue/jtable.css";
+@import "../js/jtable/extensions/css/jtable.export.css";
+@import "../js/jtable/extensions/css/jtable.filters.css";
+@import "../js/jtable/extensions/css/jtable.footer.css";
 
 /*******************************************************************************
 MeyerWeb Reset
@@ -136,7 +142,7 @@ strong {
   font-weight: bold;
 }
 
-img {
+/*img {
   position: relative;
   margin: 0 auto;
   max-width: 739px;
@@ -149,7 +155,7 @@ img {
   -moz-box-shadow: 0 0 5px #ebebeb;
   -o-box-shadow: 0 0 5px #ebebeb;
   -ms-box-shadow: 0 0 5px #ebebeb;
-}
+}*/
 
 pre, code {
   width: 100%;
@@ -227,7 +233,7 @@ hr {
   background: url('../images/bg_hr.png') repeat-x center;
 }
 
-table {
+/*table {
   border: 1px solid #373737;
   margin-bottom: 20px;
   text-align: left;
@@ -248,7 +254,7 @@ td {
 form {
   background: #f2f2f2;
   padding: 20px;
-}
+}*/
 
 /*******************************************************************************
 Full-Width Styles
@@ -260,7 +266,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 800px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -416,4 +422,15 @@ Small Device Styles
     font-size: 11px;
   }
 
+}
+
+img.hover_img
+{
+    opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+img.hover_img:hover
+{
+    opacity:1.0;
+    filter:alpha(opacity=100); /* For IE8 and earlier */
 }
