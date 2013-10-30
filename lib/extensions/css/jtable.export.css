@@ -10,10 +10,11 @@ div.jtable-main-container div.jtable-export-menu-container {
 div.jtable-main-container div.jtable-export-menu-container ul.jtable-export-menu {
   margin: 0px;
   padding: 0px;
-  list-style: none;
 }
 div.jtable-main-container div.jtable-export-menu-container ul.jtable-export-menu li {
-
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
 div.jtable-main-container div.jtable-export-menu-container span.jtable-menu-item {
   position: relative;
